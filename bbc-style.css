@@ -1,0 +1,451 @@
+body{
+    font-family: Helvetica, Arial,serif !important;;
+}
+#topbar{
+    
+    width: 1500px;
+    height: 50px;
+    margin: auto;
+}
+#bbc_logo{
+    float: left;
+    margin: 3px;
+}
+#signin-img{
+    float: left;
+    margin:5px 3px 5px 10px;
+}
+#signin-text{
+    
+    float: left;
+    margin: 15px 100px 15px 5px;
+    font-weight: bold;
+}
+#links{
+    float: left;
+    margin-top: 5px;
+    
+    height: 15px;
+    padding: 10px 20px 15px 20px;
+    
+    border-left: 1px #dddddd solid ;
+}
+#links a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px ;
+}
+.topbar-links{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+    padding: 8px 22px;
+
+}
+#search{
+    float: right;
+    margin: 5px;
+    position: relative;
+    top: -7px;
+
+}
+.clear-float{
+    clear: both;
+}
+
+#topmenu{
+    background-color: #b80000;
+    height: 100px;
+    padding-left: 115px;
+    position: relative;
+    top: -20px;
+}
+
+#topmenu a{
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 14px;
+    position: relative;
+    top: -30px;
+    padding-right:14px ;
+    border-right: 1px solid lightgray;
+    color: white;
+
+}
+#topmenu a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+#home-link{
+    margin-left: 0px !important;
+}
+#more-link{
+    border-right: none !important;
+}
+
+#content{
+    width: 1500px;
+    margin: auto;
+    position: relative;
+    top: -30px;
+}
+#ad{
+    background-color: #eeeeee;
+    width: 1500px;
+    height: 130px;
+    margin: auto;
+}
+#ad-content{
+    width: 800px;
+    height: 150px;
+    margin: auto;
+}
+#ad-content a{
+    float: right;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+#ad-content a:hover{
+    text-decoration: underline;
+
+}
+#news{
+    float: left;
+    
+    width: 1040px;
+    
+    margin: 10px 20px;
+    
+}
+
+#main-news{
+    margin: 0;
+    float: left;
+}
+#main-news img{
+    width: 700px;
+    float: left;
+    padding: 0 10px;
+    
+}
+#main-news a{
+    color: black;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+}
+#main-news a:hover{
+    color:#b80000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#main-news p{
+    color: grey;
+}
+.time{
+    color: grey;
+}
+
+#ad2{
+    background-color: #eeeeee;
+    float: right;
+    width: 390px;
+    height: 680px;
+    margin: 10px;
+    
+}
+#ad2 a{
+    float: right;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    margin-top: 2px;
+    font-weight: bold;
+}
+#ad2 a:hover{
+    text-decoration: underline;
+
+}
+.other-news{
+    width: 330px;
+    height: 370px;
+    float: left;
+    margin: 8px;
+}
+.other-news a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 110%;
+}
+.other-news a:hover{
+    text-decoration: underline;
+    color: #b80000;
+    
+}
+.other-news p{
+    color: grey;
+}
+.other-news img{
+    width: 330px;
+}
+.small-link{
+    font-weight: lighter !important;
+    font-size: 100% !important;
+    color: gray !important;
+    
+}
+.small-link:hover{
+    color: #b80000 !important;
+
+}
+
+.watch{
+    margin-left: 20px;
+}
+.watch h2{
+    
+    font-weight: normal;
+    
+}
+hr.hori{
+    
+    width: 85%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    top: -35px;
+}
+.small-news{
+    
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin: 13px;
+    
+}
+.small-news img{
+    width: 270px;
+}
+.small-news a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.small-news a:hover{
+    text-decoration: underline;
+    color: #b80000;
+}
+#latest-updates{
+    width: 800px;
+    margin: 50px auto;
+    
+}
+
+.update{
+    margin: 30px 2px;
+    border-bottom: 1px lightgray solid ;
+    padding-bottom: 30px;
+}
+.update p{
+    color: grey;
+}
+.update a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 120%;
+}
+.update img{
+    float: left;
+    
+    margin-right: 20px;
+}
+.read-more{
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px lightgrey solid;
+    padding: 8px 5px;
+    font-size: 90% !important;
+}
+.update a:hover{
+    
+    color: #b80000;
+}
+.share{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.share a{
+    font-weight: 500 !important;
+    font-size: 90%;
+}
+.share a:hover{
+    color: black !important;
+    opacity: 0.8;
+}
+.share-logo{
+    margin-right: 0 !important;
+}
+#contactus{
+    margin:0 auto;
+}
+#sm{
+    margin-left: 30px;
+    border-right: 1px lightgray solid;
+    float: left;
+    width: 500px;
+    height: 70px;
+    padding-top: 20px;
+}
+#sm a{
+    display: inline-block;
+    margin-right: 30px;
+    
+    
+}
+#sm a:hover{
+    background-color: red;
+}
+
+.prom{
+    float: left;
+    width: 240px;
+    height: 90px;
+    padding: 0 5px;
+    margin: 0 10px;
+    
+}
+
+.heading img{
+    margin: 0px 10px 0 0 ;
+    border-right: 1px black solid;
+    float: left;
+    position: relative;
+    top: -10px;
+    padding-right: 10px;
+}
+.prom a{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+
+}
+.prom a:hover{
+    color: #b80000;
+    text-decoration: underline;
+}
+.heading h2{
+    font-weight: normal;
+}
+#email{
+    font-size: 80%;
+    color: gray;
+    
+    float: left;
+}
+#email a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#email a:hover{
+    color:#b80000;
+    text-decoration: underline
+}
+#services{
+    background-color: #2f2f2f;
+    height: 100px;
+    
+}
+.services-part{
+    color: white;
+    width: 1400px;
+    margin: 0px auto;
+}
+.services-part h2{
+    
+    position: relative;
+    top: 10px;
+}
+.sertype{
+    
+    float: left;
+    margin-right: 150px;
+}
+.sertype a{
+    color: white;
+    text-decoration: none;
+    font-size: 85%;
+    font-weight: bold;
+}
+.sertype a:hover{
+    text-decoration: underline;
+}
+.sertype img{
+    position: relative;
+    top: 10px;
+}
+#explore{
+    height: 250px;
+    background-color: #4c4c4c;
+    border-top: 1px grey solid;
+}
+.explore-part{
+    width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.explore-part a{
+    color: white;
+    display: block;
+    width: 100px;
+    float: left;
+    border-right: 1px lightgray solid;
+    padding-right :100px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-right: 20px;
+    font-size: 85%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.explore-part a:hover{
+    text-decoration: underline;
+}
+#footer-links{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+#footer-links a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 85%;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+#footer-links a:hover{
+    text-decoration: underline;
+}
+#footer-links p{
+    color: #dddddd;
+    font-size: 80%;
+    font-weight: bold;
+    
+}
